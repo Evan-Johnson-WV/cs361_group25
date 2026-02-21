@@ -3,5 +3,10 @@
     "userId": 12345,
     "username": "user1",
     "interest_tags": ["categoryA"]
+  },
+  {
+    "userId": 67890,
+    "username": "user2",
+    "interest_tags": ["categoryB"]
   }
 ]
