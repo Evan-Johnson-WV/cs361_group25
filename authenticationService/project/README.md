@@ -15,14 +15,14 @@ it salts and hashes the entered password, and compares it to the PasswordHash th
 responds with a JSON object containing a success message, the userID, and the username.
 
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 HOW TO PROGRAMMATICALLY REQUEST AND RECEIVE DATA FROM CREATEACCOUNT MICROSERVICE:
 
   Code for example test function and call:
 
-
+![Alt text](authenticationService/images/testCreateAccount.png)
 
 To Test:
     -Create a file in the project root directory (cd ~/microservice/project) called: testCreateAccount.js
@@ -32,7 +32,7 @@ To Test:
 
 
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -40,8 +40,7 @@ HOW TO PROGRAMMATICALLY REQUEST AND RECEIVE DATA FROM LOGIN MICROSERVICE:
 
    Example test function and call:
 
-
-
+![Alt text](authenticationService/images/testLogin.png)
 
 To Test:
     -Create a file in the project root directory (cd ~/microservice/project) called: testLogin.js
