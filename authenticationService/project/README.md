@@ -22,35 +22,8 @@ HOW TO PROGRAMMATICALLY REQUEST AND RECEIVE DATA FROM CREATEACCOUNT MICROSERVICE
 
   Code for example test function and call:
 
------------------------------------------------------------------------------------------
-
-const fetch = require('node-fetch');
-
-
-// Test function to create an account
-async function testCreateAccount() {
-    const response = await fetch('http://localhost:64328/account/createAccount', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        // Pass the username, password, and confirmPassword in a JSON object
-        body: JSON.stringify({
-            username: "sleepyTired",
-            password: "NapTime-99",
-            confirmPassword: "NapTime-99"
-        })
-    });
-
-
-    const data = await response.json();
-    // Print the response
-    console.log("Response: ", data);
-}
-
-
-// Call the test fucntion
-testCreateAccount();
-
------------------------------------------------------------------------------------------
+<img width="674" height="432" alt="testCreateAccount" src="https://github.com/user-attachments/assets/0ed323b7-0b30-444c-b4d6-88ed36f8b4b9" />
+<img width="674" height="432" alt="testCreateAccount" src="https://github.com/user-attachments/assets/0ed323b7-0b30-444c-b4d6-88ed36f8b4b9" />
 
 To Test:
     -Create a file in the project root directory (cd ~/microservice/project) called: testCreateAccount.js
@@ -68,35 +41,9 @@ HOW TO PROGRAMMATICALLY REQUEST AND RECEIVE DATA FROM LOGIN MICROSERVICE:
 
    Example test function and call:
 
------------------------------------------------------------------------------------------
+<img width="585" height="439" alt="testLogin" src="https://github.com/user-attachments/assets/4730cb22-a297-49aa-90f2-f91c1e743de4" />
+<img width="585" height="439" alt="testLogin" src="https://github.com/user-attachments/assets/4730cb22-a297-49aa-90f2-f91c1e743de4" />
 
-const fetch = require('node-fetch');
-
-
-// Test function to login with previously created account
-async function testLogin() {
-    const response = await fetch('http://localhost:64328/auth/login', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        // Pass the username and password in a JSON object
-        body: JSON.stringify({
-            username: "sleepyTired",
-            password: "NapTime-99"
-        })
-    });
-
-
-    console.log("Status: ", response.status);
-    const data = await response.json();
-    // Print the response
-    console.log("Response: ", data);
-}
-
-
-// Call the test fucntion
-testLogin();
-
------------------------------------------------------------------------------------------
 
 To Test:
     -Create a file in the project root directory (cd ~/microservice/project) called: testLogin.js
