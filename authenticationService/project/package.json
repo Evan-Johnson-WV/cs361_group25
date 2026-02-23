@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "development": "npx nodemon src/server.js",
+    "production": "npx forever start src/server.js",
+    "stop_production": "npx forever stop src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "forever": "^4.0.3",
+    "mysql2": "^3.17.5",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.14"
+  },
+  "description": ""
+}
