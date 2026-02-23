@@ -24,11 +24,11 @@ HOW TO PROGRAMMATICALLY REQUEST AND RECEIVE DATA FROM CREATEACCOUNT MICROSERVICE
 
 ![Alt text](../images/testCreateAccount.PNG)
 
-To Test:\
-    -Create a file in the project root directory (cd ~/microservice/project) called: testCreateAccount.js\
-    -Paste the above test function code into it\
-    -Run the microservice in npm development (or npm production) from project root directory\
-    -Open a fresh console, make sure you’re in the project root directory (cd ~/microservice/project), and type: node testCreateAccount.js\
+To Test: \
+    -Create a file in the project root directory (cd ~/microservice/project) called: testCreateAccount.js \
+    -Paste the above test function code into it \
+    -Run the microservice in npm development (or npm production) from project root directory \
+    -Open a fresh console, make sure you’re in the project root directory (cd ~/microservice/project), and type: node testCreateAccount.js
 
 
 
@@ -42,8 +42,8 @@ HOW TO PROGRAMMATICALLY REQUEST AND RECEIVE DATA FROM LOGIN MICROSERVICE:
 
 ![Alt text](../images/testLogin.PNG)
 
-To Test:\
-    -Create a file in the project root directory (cd ~/microservice/project) called: testLogin.js\
-    -Paste the above test function code into it\
-    -Run the microservice in npm development (or npm production) from project root directory\
-    -Open a fresh console, make sure you’re in the project root directory (cd ~/microservice/project), and type: node testLogin.js\
+To Test: \
+    -Create a file in the project root directory (cd ~/microservice/project) called: testLogin.js \
+    -Paste the above test function code into it \
+    -Run the microservice in npm development (or npm production) from project root directory \
+    -Open a fresh console, make sure you’re in the project root directory (cd ~/microservice/project), and type: node testLogin.js
